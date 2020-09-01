@@ -62,7 +62,6 @@ app.get("/callback", async (req, res) => {
     try {
         await member.setNickname("u/" + reddit.name);
     } catch(e) {
-        console.log(e);
         return res.status(500).send("Missing nickname permission");
     }
     res.send("Done");

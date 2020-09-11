@@ -1,0 +1,12 @@
+{
+    "CLIENT_ID": "",
+    "CLIENT_SECRET": "",
+    "TOKEN": "",
+    "GUILD_ID": "",
+
+    "PROTOCOL": "http",
+    "HOSTNAME": "localhost",
+    "LOGIN_PATH": "/login",
+    "CALLBACK_PATH": "/callback",
+    "PORT": 8080
+}
